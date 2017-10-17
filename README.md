@@ -4,3 +4,6 @@
    onProgressUpdate()都是在UI线程中进行，因此在这三个方法里面可以进行UI更新的工作；
     2.每一个new出来的AsyncTask只能执行一次execute方法，多次运行将会报错，如需多次，需要new一个AsyncTask；
     3.AsyncTask必须在UI线程中创建实例，execute()方法也必须在UI线程中调用;
+    
+第二次提交：
+    类似moto z play 上打开闪光灯和翻转打开相机的功能，只是实现这两种操作，具体的功能没有添加。
